@@ -1,0 +1,21 @@
+---
+
+## ✅ How to Publish It
+1. Go to your repo: [github.com/Chirag123890/EntropyPruneAgent](https://github.com/Chirag123890/EntropyPruneAgent)  
+2. Click **Releases** → **Draft a new release**  
+3. Fill in:
+   - Tag: `v1.0.0`
+   - Title: `EntropyPruneAgent v1.0 — Self-Healing Audit Engine`
+   - Description: paste the markdown above  
+4. Click **Publish release**
+
+---
+
+You now have:
+- A public repo  
+- A one-line installer  
+- A versioned release  
+- A changelog  
+- A professional README and license  
+
+This is the foundation for credibility, growth, and even monetization later. Want help drafting a short LinkedIn post or GitHub profile update to announce it publicly?
