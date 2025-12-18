@@ -1,0 +1,54 @@
+{
+  "entropy_categories": {
+    "Optional_GUI": [
+      "gir1.2-packagekitglib-1.0",
+      "x11-common",
+      "xauth",
+      "xclip"
+    ],
+    "Optional_Build_Helper": [
+      "make",
+      "rpcsvc-proto"
+    ],
+    "Optional_Encoding": [
+      "libcbor0.10",
+      "xml-core",
+      "sgml-base"
+    ],
+    "Optional_Python": [
+      "python3-wadllib"
+    ],
+    "Optional_Security": [
+      "libaudit1",
+      "libaudit-common",
+      "libapparmor1"
+    ],
+    "Redundant": [
+      "coreutils-from-gnu",
+      "bsdutils"
+    ]
+  },
+  "scripts": {
+    "run_weekly_audit": "/root/EntropyPruneAgent/run-weekly-audit.sh",
+    "audit_prune": "/root/EntropyPruneAgent/audit-prune.ps1",
+    "summarize_logs": "/root/EntropyPruneAgent/summarize-logs.ps1"
+  },
+  "base_path": "/root/EntropyPruneAgent",
+  "module": "EntropyPruneAgent",
+  "slices": {
+    "Phase 2": "Package Management",
+    "Phase 6": "Compression & Encoding",
+    "Phase 7": "GUI & Introspection",
+    "Phase 5": "Python Runtime",
+    "Phase 4": "Security & Identity",
+    "Phase 8": "Redundancy & Pruning",
+    "Phase 1": "System Bootstrap (Locked Anchors)",
+    "Phase 3": "Development Environment"
+  },
+  "aliases": {
+    "help": "Prune-Help",
+    "entropy": "Summarize-AuditLogs",
+    "prune": "Audit-And-Prune",
+    "weekly": "/root/EntropyPruneAgent/run-weekly-audit.sh"
+  }
+}
